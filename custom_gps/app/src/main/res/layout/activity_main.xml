@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/android_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CD000000"
+            android:text="안드로이드 내장"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/androidLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CD000000"
+            android:padding="10dp"
+            android:text="경도"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/androidLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CD000000"
+            android:padding="10dp"
+            android:text="위도"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/androidSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CD000000"
+            android:padding="10dp"
+            android:text="속도"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_marginTop="10dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/naver_title"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#CD000000"-->
+<!--            android:text="네이버 지도 API"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="24sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/naverLatitude"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#CD000000"-->
+<!--            android:padding="10dp"-->
+<!--            android:text="위도"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/naverLongitude"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#CD000000"-->
+<!--            android:padding="10dp"-->
+<!--            android:text="경도"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_marginTop="10dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/google_title"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#CD000000"-->
+<!--            android:text="구글 지도 API"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="24sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/googleLatitude"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#CD000000"-->
+<!--            android:padding="10dp"-->
+<!--            android:text="위도"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/googleLongitude"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#CD000000"-->
+<!--            android:padding="10dp"-->
+<!--            android:text="경도"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/revised_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CD000000"
+                android:text="보정 알고리즘 적용"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/revisedLatitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CD000000"
+                android:padding="10dp"
+                android:text="경도"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/revisedLongitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CD000000"
+                android:padding="10dp"
+                android:text="위도"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/revisedSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CD000000"
+                android:padding="10dp"
+                android:text="속도"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        <fragment
+            android:id="@+id/naverMap"
+            android:name="com.naver.maps.map.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:id="@+id/googleMap"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+</LinearLayout>
